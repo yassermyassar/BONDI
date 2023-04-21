@@ -183,10 +183,14 @@ color: var(--green-color);
 .footer .one{
     color: var(--green-color);
 }
+.footer a{
+    text-decoration: none;
+    color: white;
+}
 .footer .two{
     color: var(--yellow-color);
 }
-.footer .icons svg:hover{
+.footer .icons a svg:hover{
     color: var(--yellow-color);
     cursor: pointer;
     transition: 0.3s;
